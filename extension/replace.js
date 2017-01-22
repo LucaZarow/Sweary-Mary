@@ -15,8 +15,6 @@ var ridiculous = ["poopy stuffs","two in the pink, one in the stink","fiiine","m
 
 var replacement = [rhyme, definitions, ridiculous];
 
-/*var word = "the";
-var replacement = "eht";*/
 
 var docElement = document.getElementsByTagName('*');
 
@@ -40,26 +38,6 @@ for (var i = 0; i<swearWord.length; i++){
 			}
 		}
 	}
-}
-
-    var particles;
-	var canvas = document.getElementById("*");
-      for(var i = 0; i<canvas.length; i++){
-      
-      particles = new ParticleCanvas(canvas, {x: 185});
-      particles.start();
-	  }
-    
-
-for(var i = 0; i<20000; i++){
-    var s = new Circle (sparkles_rand (1, 5));
-    s.x = cacophony.width / 2 + sparkles_rand (-50, 50);
-    s.y = cacophony.height / 2 + sparkles_rand (-50, 50);
-    s._opacity = Math.random();
-    s.fill = 'rgba(255,255,255,' + s._opacity + ')';
-    s._dir = [sparkles_rand (-2.5, 2.5), sparkles_rand (-2.5, 2.5)];
-    s._dir[0] = (s._dir[0]) ? s._dir[0] : -1;
-    s._dir[1] = (s._dir[1]) ? s._dir[1] : 1;
 }
 
 function matchCase(text, pattern) {
